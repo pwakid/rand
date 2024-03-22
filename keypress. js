@@ -1,0 +1,4 @@
+document.addEventListener('keypress', function(e) {
+    var loggedKey = String.fromCharCode(e.which);
+    console.log("Key pressed:", loggedKey); // For demonstration; actual keyloggers may attempt to send this data to a remote server.
+});
